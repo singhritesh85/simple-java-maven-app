@@ -7,6 +7,18 @@
   <version>1.0</version>
   <name>my-app</name>
   <url>https://maven.apache.org</url>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog-artifactory-releases</name>
+        <url>https://jfrog.singhritesh85.com/artifactory/mymaven-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog-artifactory-snapshots</name>
+        <url>https://jfrog.singhritesh85.com/artifactory/mymaven-local</url>
+    </snapshotRepository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
