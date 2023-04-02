@@ -1,30 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mycompany.app2</groupId>
-  <artifactId>my-app2</artifactId>
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>2.0</version>
+  <version>1.0</version>
   <name>my-app</name>
   <url>https://maven.apache.org</url>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>jfrog-artifactory-releases</name>
-        <url>https://jfrog.singhritesh85.com/artifactory/mymaven-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>jfrog-artifactory-snapshots</name>
-        <url>https://jfrog.singhritesh85.com/artifactory/mymaven-local</url>
-    </snapshotRepository>
-</distributionManagement>
   <dependencies>
-    <dependency>
-    <groupId>com.mycompany.app</groupId>
-    <artifactId>my-app</artifactId>
-    <version>1.0</version>
-    </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
